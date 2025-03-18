@@ -1,18 +1,19 @@
 # paste
 
-flutter实现的增强粘贴板
-支持平台：Linux,MacOs,Windows
+**flutter实现的增强粘贴板**
+支持平台：**Linux,MacOs,Windows**
 
 Futures:
 1、系统配置
-    （1）保留时间
-    （2）开机自启
+-     （1）保留时间
+-     （2）开机自启
 2、云同步
-    ...
+-     ...
 
 ## Getting Started
 
 使用到的组件:
+
     window_manager 用于窗口管理，自定义初始化大小，关闭按钮最小化。
     hotkey_manager 快捷键唤起、隐藏
     sqflite 粘贴板记录存储
