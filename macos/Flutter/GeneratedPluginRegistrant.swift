@@ -5,8 +5,6 @@
 import FlutterMacOS
 import Foundation
 
-import desktop_lifecycle
-import desktop_multi_window
 import device_info_plus
 import file_selector_macos
 import flutter_platform_alert
@@ -22,8 +20,6 @@ import tray_manager
 import window_manager
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  DesktopLifecyclePlugin.register(with: registry.registrar(forPlugin: "DesktopLifecyclePlugin"))
-  FlutterMultiWindowPlugin.register(with: registry.registrar(forPlugin: "FlutterMultiWindowPlugin"))
   DeviceInfoPlusMacosPlugin.register(with: registry.registrar(forPlugin: "DeviceInfoPlusMacosPlugin"))
   FileSelectorPlugin.register(with: registry.registrar(forPlugin: "FileSelectorPlugin"))
   FlutterPlatformAlertPlugin.register(with: registry.registrar(forPlugin: "FlutterPlatformAlertPlugin"))

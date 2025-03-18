@@ -3,8 +3,6 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
-  desktop_lifecycle
-  desktop_multi_window
   file_selector_windows
   flutter_platform_alert
   hotkey_manager_windows
