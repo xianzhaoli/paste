@@ -11,8 +11,8 @@ Futures:
 -     ...
 
 ## Getting Started
+**唤起和隐藏:**
 
-    **唤起和隐藏:**
     
     macos:  command + shift + v
     windows: contro + shift + v
