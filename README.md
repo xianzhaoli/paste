@@ -12,6 +12,12 @@ Futures:
 
 ## Getting Started
 
+    **唤起和隐藏:**
+    
+    macos:  command + shift + v
+    windows: contro + shift + v
+
+
 使用到的组件:
 
     window_manager 用于窗口管理，自定义初始化大小，关闭按钮最小化。
